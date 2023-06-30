@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Age Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Age Calculator is a small React project that allows users to calculate their age based on their date of birth. It takes user input in the form of three separate fields: day, month, and year, and performs the necessary calculations to display the user's age on the screen. Additionally, the project includes some CSS animations to enhance the user experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User-friendly interface with separate input fields for day, month, and year.
+- Real-time age calculation based on the user's input.
+- Error handling to prevent crashes caused by invalid input.
+- CSS animations to provide a visually appealing experience.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Age Calculator project is built using the following technologies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React: A JavaScript library for building user interfaces.
+- CSS: Cascading Style Sheets for styling the application.
+- JavaScript: The programming language used to implement the functionality.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Upon opening the Age Calculator in your web browser, you will see three input fields for day, month, and year.
+- Enter your date of birth in the respective fields.
+- As you type, the age will be calculated in real-time and displayed on the screen.
+- If you enter invalid input, such as an invalid day or month, the application will display an error message and prevent the calculation.
+- Enjoy the CSS animations that enhance the visual experience.
 
-### `npm run build`
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributions to the Age Calculator project are welcome and encouraged. If you would like to contribute, please follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Fork the repository on GitHub.
+- Create a new branch with a descriptive name for your feature or bug fix.
+- Make the necessary code changes and commit your changes.
+- Push your changes to your forked repository.
+- Submit a pull request detailing your changes and any relevant information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions, suggestions, or feedback, please feel free to contact:
+Email: AraibKhan93@gmail.com
