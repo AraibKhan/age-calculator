@@ -1,13 +1,141 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/* 
+Purple: #864cfe
+Body bg: #f0f0f0
+Black: #151515
+Gray: #858585
+Red: #ed716e
+*/
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.4rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 50rem;
+  height: 42rem;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  border-bottom-right-radius: 30%;
+  padding: 24px;
+}
+
+/* FORM */
+.form-container {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  row-gap: 2.4rem;
+  column-gap: 2rem;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-item label {
+  color: #858585;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.form-item input {
+  width: 10rem;
+  padding: 8px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #858585;
+  letter-spacing: 0.2rem;
+  border: 0.5px solid #858585;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-item input[type="text"] {
+  color: #000;
+}
+
+.line {
+  background-color: #858585;
+  height: 1px;
+  border: none;
+  margin: 10px 0;
+  grid-column: 1/3;
+  align-self: center;
+}
+
+.form-container button {
+  width: 6rem;
+  height: 6rem;
+  font-size: 4rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #864cfe;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  grid-column: 3/4;
+  justify-self: end;
+}
+
+/* OUTPUT */
+.output-container h1,
+span {
+  font-style: italic;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.output-container span {
+  color: #864cfe;
+}
+
+/* Error States */
+.error label {
+  color: #ed716e;
+}
+
+.error input {
+  border-color: #ed716e;
+}
+
+.error-text {
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: #ed716e;
+}
+
+/* Text Animation */
+.animate-text {
+  animation: slide-in 1s ease-in-out;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
