@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
-/* 
-Purple: #864cfe
-Body bg: #f0f0f0
-Black: #151515
-Gray: #858585
-Red: #ed716e
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -139,3 +131,11 @@ span {
     transform: translateX(0);
   }
 }
+
+/* 
+Purple: #864cfe
+Body bg: #f0f0f0
+Black: #151515
+Gray: #858585
+Red: #ed716e
+*/
